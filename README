@@ -1,0 +1,16 @@
+timebomb.py version 0.1
+http://github.com/eaydin/timebomb
+
+Probably the only version that it'll ever be.
+
+About : Kills proccess that lived longer than specified time.
+
+Usage : timebomb.py <process-name> <minutes>
+
+Example : $ timebomb.py firefox-bin 20
+
+Outcome : This will kill the process named firefox-bin if it has been running longer than 20 minutes.
+
+Crontab : You should probably add this to your crontab!
+
+Dependency : Standard UNIX tools : Python 2.4.x, pgrep, ps, kill etc.
